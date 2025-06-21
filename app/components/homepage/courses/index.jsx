@@ -3,7 +3,7 @@
 import { courses } from '@/utils/data/courses';
 import CourseCard from './CourseCard';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import AnimationLottie from '../../helper/animation-lottie';
 import lottieFile from '../../../assets/lottie/study.json';
 

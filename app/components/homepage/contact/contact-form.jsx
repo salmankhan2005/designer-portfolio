@@ -37,10 +37,10 @@ function ContactForm() {
     try {
       setIsLoading(true);
       await emailjs.sendForm(
-        'service_ojnl3hz', // Service ID
-        'template_8t8tzpp', // Template ID
+        'service_grsbtdn', // Service ID
+        'template_cn072j6', // Template ID
         form.current,
-        'XqRL8RMPOcN0pkmjs' // Public Key
+        'weRuLa93NvvOExLvx' // Public Key
       );
       toast.success("Message sent successfully!");
       setUserInput({

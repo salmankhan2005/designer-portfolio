@@ -2,7 +2,7 @@
 export const dynamic = "force-dynamic";
 import GlowCard from "../components/helper/glow-card";
 import { BsPersonWorkspace } from "react-icons/bs";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import AnimationLottie from "../components/helper/animation-lottie";
 import lottiMan from "../assets/lottie/lotti.json";
 

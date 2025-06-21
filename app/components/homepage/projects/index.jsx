@@ -1,7 +1,7 @@
 "use client";
 
 import { projectsData } from '@/utils/data/projects-data';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { useState } from 'react';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";

@@ -1,7 +1,7 @@
 "use client";
 // @flow strict
 import { educations } from "@/utils/data/educations";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import lottieFile from '../../../assets/lottie/study.json';
 import AnimationLottie from "../../helper/animation-lottie";
